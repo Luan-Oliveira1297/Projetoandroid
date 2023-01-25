@@ -162,7 +162,34 @@ aside > ul {
     list-style-position: inside;
     columns: 2;
 }
+.sefinha > h1 {
+    font-family: var(--fonte-destaque);
+    color: rgb(255, 255, 255);
+    background-color: var(--cor4);
+    padding: 3px;
+    margin: -10px 0px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+.sefinha > p{
+    margin: 15px 0px 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
 
+    line-height: 25px;
+}
+.sefinha > nav{
+
+    padding: 10px;
+ background-color: var(--cor4);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.315);
+}
+   .sefinha > nav > a {
+        color: var(--cor5);
+        padding: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 10px;
+        transition-duration: .3s;}
 
 footer{
     background-color: var(--cor5);
@@ -179,5 +206,5 @@ footer a{
 }
 footer a:hover{
     text-decoration: underline;
-    color: var(--cor5);
+    color: var(--cor2);
 }
