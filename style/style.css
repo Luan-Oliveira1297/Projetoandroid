@@ -163,7 +163,7 @@ aside > ul {
     columns: 2;
 }
 .sefinha > h1 {
-    font-family: var(--fonte-destaque);
+    font-family:Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     background-color: var(--cor4);
     padding: 3px;
