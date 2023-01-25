@@ -162,6 +162,15 @@ aside > ul {
     list-style-position: inside;
     columns: 2;
 }
+.sefinha{
+    padding: 5px;
+    min-width: 310px;
+    max-width: 800px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: var(--cor0);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.363);
+}
 .sefinha > h1 {
     font-family:Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
@@ -174,7 +183,6 @@ aside > ul {
     margin: 15px 0px 15px 0px;
     text-align: justify;
     text-indent: 30px;
-
     line-height: 25px;
 }
 .sefinha > nav{
@@ -184,12 +192,17 @@ aside > ul {
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.315);
 }
    .sefinha > nav > a {
-        color: var(--cor5);
-        padding: 10px;
-        text-decoration: none;
-        font-weight: bold;
-        border-radius: 10px;
-        transition-duration: .3s;}
+    color: var(--cor1);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition-duration: .3s;
+   }
+   .sefinha > nav > a:hover{
+    background-color: var(--cor3);
+    color: var(--cor5);
+}
 
 footer{
     background-color: var(--cor5);
